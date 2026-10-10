@@ -1,0 +1,209 @@
+* { 
+ box-sizing: border-box;
+ margin: 0; padding: 0;
+}
+
+.page {
+width: 900px;
+margin: 0 auto;
+border: 3px solid black;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navitem {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+#navitem1 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#navitem2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 30, 37);
+}
+
+#navitem3 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#navitem4 {
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 30, 37);
+}
+
+#navitem5 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#navitem6 {
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 30, 37);
+}
+
+header {
+ position: relative;
+ height: 70px;
+}
+
+#logo {
+ position: absolute;
+ top: 15px;
+ right: 15px;
+ height: 30px;
+ width: 30px;
+}
+
+#mytitle {
+ position: absolute;
+  top: 15px;
+  right: 45px;
+background: linear-gradient(to bottom, red 80%, black 20%)
+}
+
+#onheader {
+ position: absolute;
+background-color: black;
+top: 44px;
+height: 2px;
+width: 93.5%;
+margin-left: 2.5%;
+margin-right: 5%;
+}
+
+#mylink {
+ position: absolute;
+ top: 25px;
+ left: 15px;
+}
+
+section {
+    display: flow-root;
+    position: relative;
+} 
+
+.horizontal {
+position: absolute;
+background-color: black;
+width: 2px;
+height: 70%;
+vertical-align: top;
+margin: 0% 15%;
+top: 10%;
+}
+
+.card {
+float: right;
+width: 16%;
+padding: 8px;
+padding-bottom: 40px;
+}
+
+.hour {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 2px 6px;
+}
+
+#solidbr {
+position: absolute;
+ bottom: 5px;
+ left: 5px;
+ border: black solid 5px;
+ width: 90%;
+}
+.arrow {
+position: absolute;
+ bottom: 5px;
+ right: 5px;
+ height: 30px;
+ width: 30px;
+ border: black solid 5px;
+}
+#arrow2 {
+ right: 35px;
+}
+
+article {
+     position: relative;
+     height: 340px;
+     width: 900px;
+     margin-top: 15px;
+}
+
+#flower {
+    top: 0;
+    left: 0;
+    display: inline-block;    
+    position: absolute;
+    height: 100%;
+    width: 400px;
+
+}
+
+#myimg {
+    top: 0;
+    left: 0;
+    display: inline-block;    
+    position: absolute;
+    height: 315px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+h1 {
+background-color: rgb(14, 30, 211);
+color: white;
+background-size: cover;
+width:fit-content;
+}
+
+h3 {
+background-color: red;
+color: white;
+width:fit-content;
+}
+
+#text {
+    position: absolute;
+     top: 0;
+      right: 0;
+       width: 52%;
+       height: 100%
+}
+
+spen {
+  font-size: 0.8rem;
+  color: #666;
+position: absolute;
+ bottom: 8px; 
+ right: 10px
+}
+
+/* 
+● Summary question: 
+What would happen in steps 4 and 6 without `position: relative` on the parent?
+Answer: 
+ithout the position: relative property on the parent element,
+ the child elements defined with absolute positioning (position: absolute)
+  will skip relativity to the parent element and position themselves
+   relative to the closest positioned ancestor above them.
+
+   that will make them move up closer to the top of the screen. 
+*/
