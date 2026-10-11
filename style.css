@@ -1,12 +1,13 @@
-* { 
- box-sizing: border-box;
- margin: 0; padding: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .page {
-width: 900px;
-margin: 0 auto;
-border: 3px solid black;
+    width: 900px;
+    margin: 0 auto;
+    border: 3px solid black;
 }
 
 nav {
@@ -21,6 +22,7 @@ nav {
     display: inline-block;
     padding: 10px;
     color: white;
+
 }
 
 #navitem1 {
@@ -53,62 +55,88 @@ nav {
     text-decoration-color: rgb(229, 30, 37);
 }
 
+#navitem7 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#navitem8 {
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 30, 37);
+}
+
+#navitem9 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#navitem10 {
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 30, 37);
+}
+
+#navitem11 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+
 header {
- position: relative;
- height: 70px;
+    position: relative;
+    height: 70px;
 }
 
 #logo {
- position: absolute;
- top: 15px;
- right: 15px;
- height: 30px;
- width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 30px;
+    width: 30px;
 }
 
 #mytitle {
- position: absolute;
-  top: 15px;
-  right: 45px;
-background: linear-gradient(to bottom, red 80%, black 20%)
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    background: linear-gradient(to bottom, red 80%, black 20%)
 }
 
 #onheader {
- position: absolute;
-background-color: black;
-top: 44px;
-height: 2px;
-width: 93.5%;
-margin-left: 2.5%;
-margin-right: 5%;
+    position: absolute;
+    background-color: black;
+    top: 44px;
+    height: 2px;
+    width: 93.5%;
+    margin-left: 2.5%;
+    margin-right: 5%;
 }
 
 #mylink {
- position: absolute;
- top: 25px;
- left: 15px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
 }
 
 section {
     display: flow-root;
     position: relative;
-} 
+}
 
 .horizontal {
-position: absolute;
-background-color: black;
-width: 2px;
-height: 70%;
-vertical-align: top;
-margin: 0% 15%;
-top: 10%;
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 70%;
+    vertical-align: top;
+    margin: 0% 15%;
+    top: 10%;
 }
 
 .card {
-float: right;
-width: 16%;
-padding: 8px;
-padding-bottom: 40px;
+    float: right;
+    width: 16%;
+    padding: 8px;
+    padding-bottom: 40px;
 }
 
 .hour {
@@ -119,35 +147,37 @@ padding-bottom: 40px;
 }
 
 #solidbr {
-position: absolute;
- bottom: 5px;
- left: 5px;
- border: black solid 5px;
- width: 90%;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border: black solid 5px;
+    width: 90%;
 }
+
 .arrow {
-position: absolute;
- bottom: 5px;
- right: 5px;
- height: 30px;
- width: 30px;
- border: black solid 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    border: black solid 5px;
 }
+
 #arrow2 {
- right: 35px;
+    right: 35px;
 }
 
 article {
-     position: relative;
-     height: 340px;
-     width: 900px;
-     margin-top: 15px;
+    position: relative;
+    height: 340px;
+    width: 900px;
+    margin-top: 15px;
 }
 
 #flower {
     top: 0;
     left: 0;
-    display: inline-block;    
+    display: inline-block;
     position: absolute;
     height: 100%;
     width: 400px;
@@ -157,7 +187,7 @@ article {
 #myimg {
     top: 0;
     left: 0;
-    display: inline-block;    
+    display: inline-block;
     position: absolute;
     height: 315px;
     width: 400px;
@@ -168,32 +198,32 @@ article {
 }
 
 h1 {
-background-color: rgb(14, 30, 211);
-color: white;
-background-size: cover;
-width:fit-content;
+    background-color: rgb(14, 30, 211);
+    color: white;
+    background-size: cover;
+    width: fit-content;
 }
 
 h3 {
-background-color: red;
-color: white;
-width:fit-content;
+    background-color: red;
+    color: white;
+    width: fit-content;
 }
 
 #text {
     position: absolute;
-     top: 0;
-      right: 0;
-       width: 52%;
-       height: 100%
+    top: 0;
+    right: 0;
+    width: 52%;
+    height: 100%
 }
 
 spen {
-  font-size: 0.8rem;
-  color: #666;
-position: absolute;
- bottom: 8px; 
- right: 10px
+    font-size: 0.8rem;
+    color: #666;
+    position: absolute;
+    bottom: 8px;
+    right: 10px
 }
 
 /* 
